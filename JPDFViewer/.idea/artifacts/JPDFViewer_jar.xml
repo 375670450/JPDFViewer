@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JPDFViewer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JPDFViewer_jar</output-path>
+    <root id="archive" name="JPDFViewer.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="JPDFViewer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-core-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jPDFNotes.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-databind-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-annotations-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
